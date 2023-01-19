@@ -1,0 +1,55 @@
+
+
+*{
+    Margin:0;
+    
+} 
+
+.ai_h {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-family: 'Ginora Sans', sans-serif;
+    color: rgba(184, 184, 184, 0.7);
+}
+
+.ai_p {
+    font-family: 'Ginora Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 74px;
+    color: #F4F4F4;
+}
+.ai_sepline {
+    margin: 20px;
+}
+.ai_program {
+    display: flex;
+    justify-content: left;
+    text-transform: capitalize;
+    flex-direction: column;
+    align-items: center;
+}
+.ai_text1 {
+    width: 757px;
+    height: 120px;  
+}
+.ai_text2 {
+    width: 739px;
+    height: 72px;
+}
+.ai_texts {
+    display: flex;
+    font-family: 'Gilroy-Regular';  
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;    
+    gap: 20px; 
+    color: #B8B8B8;
+}
