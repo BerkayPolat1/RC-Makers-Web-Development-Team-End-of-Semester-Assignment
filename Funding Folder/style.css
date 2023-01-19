@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/ginora-sans');
+*{
+    background-color: #1D1D1D;
+}
+.titlediv{
+    display:flex;
+    color: white;
+    font-family: 'Ginora Sans', sans-serif;
+    padding: 2em;
+}
+.textoverrobot{
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    font-size: 82px;
+}
+.robotimage{
+    opacity: 40%;
+    height: 100%;
+    width:100%;
+}
+
+.bottompart{
+    display:grid;
+    grid-template-areas:
+    "a a b b"
+    "a a b b"
+    "c c d d"
+    "c c d d";
+    padding: 5px;
+}
+
+.subtitlediv{
+    grid-area: a;
+    max-width: 100%;
+    color:white;
+    font-family: 'Ginora Sans', sans-serif;
+}
+
+.orangediv{
+    grid-area: b;
+    max-width: 100%;
+}
+
+.paragraphdiv{
+    grid-area: c;
+    max-width: 100%;
+    color:white;
+    font-family: 'Ginora Sans', sans-serif;
+    opacity: 70%;
+}
+
+.patterndiv{
+    grid-area: d;
+    max-width: 100%;
+}
